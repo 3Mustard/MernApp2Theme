@@ -87,6 +87,27 @@
   text-align: center;
 }
 
+/* TEXT SIZES */
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
 /* Margins */
 .my-1 {
   margin: 1rem 0;
