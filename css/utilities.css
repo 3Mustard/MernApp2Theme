@@ -1,3 +1,29 @@
+/* BACKGROUNDS & COLORED BUTTONS */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #fff;
+}
+
+/* BUTTONS */
 .btn {
   display: inline-block;
   padding: 10px 30px;
@@ -17,6 +43,7 @@
   border: 1px #fff solid;
 }
 
+/* CARDS, CONTAINERS & GRIDS */
 .card {
   background-color: #fff;
   color: #333;
@@ -55,6 +82,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* TEXT */
 .text-center {
   text-align: center;
 }
