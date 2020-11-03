@@ -187,6 +187,11 @@ img {
   transform: translateY(-15px);
 }
 
+.languages img {
+  width:  100px;
+  height: 100px;
+}
+
 /* Footer */
 .footer .social a {
   margin: 0 10px;
