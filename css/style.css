@@ -267,14 +267,8 @@ pre {
 }
 
 /* Contact.html */
-.video-div {
-  text-align: center;
-  z-index: 1;
-  animation: slideInFromRight 1s ease-in;
-}
-
-.contact ,.container {
-  overflow: hidden;
+.my-img {
+  border-radius: 50%;
 }
 
 /* Animations */
