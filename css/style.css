@@ -266,6 +266,17 @@ pre {
   margin: 0 10px;
 }
 
+/* Contact.html */
+.video-div {
+  text-align: center;
+  z-index: 1;
+  animation: slideInFromRight 1s ease-in;
+}
+
+.contact ,.container {
+  overflow: hidden;
+}
+
 /* Animations */
 @keyframes slideInFromLeft {
   0% {
