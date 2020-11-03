@@ -1,3 +1,23 @@
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px #fff solid;
+}
+
 /* BACKGROUNDS & COLORED BUTTONS */
 .bg-primary,
 .btn-primary {
@@ -21,26 +41,6 @@
 .btn-light {
   background-color: var(--light-color);
   color: #fff;
-}
-
-/* BUTTONS */
-.btn {
-  display: inline-block;
-  padding: 10px 30px;
-  cursor: pointer;
-  background: var(--primary-color);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  transform: scale(0.98);
-}
-
-.btn-outline {
-  background-color: transparent;
-  border: 1px #fff solid;
 }
 
 /* CARDS, CONTAINERS & GRIDS */
