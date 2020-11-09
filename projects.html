@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Welcome</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon/ruby.png"/>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -18,7 +19,7 @@
           <ul>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="link2.html">Resume</a></li>
+            <li><a href="resources/resume.pdf" target="_blank">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -47,8 +48,7 @@
               <p>
                   The purpose of this application is to allow international fans of Korean music to exchange merchandise and trading cards, create profiles, chat with other fans and organize purchases to save on shipping costs.
               </p>
-              <br>
-              <p>The scope of this project is fairly big and although it is not finished I want to share the resources I currently have built.</p>
+              <p>Although unfinished I am passionate about this project and want to share the resources I currently have.</p>
           </div>
           <img src="images/heart.png" alt="">
       </div>
@@ -87,8 +87,8 @@
           <div class="card flex">
               <i class="fas fa-upload fa-3x"></i>
               <p>
-                  <a class="text-primary" href="https://github.com/3Mustard/MernApp1" target="_blank">Backend Repository</a> <br>
-                  <a class="text-primary" href="https://github.com/3Mustard/MernApp1Theme" target="_blank">Theme Repository</a>
+                  <a class="text-primary" href="https://github.com/3Mustard/MernApp1" target="_blank">Backend Repo</a> <br>
+                  <a class="text-primary" href="https://github.com/3Mustard/MernApp1Theme" target="_blank">Theme Repo</a>
               </p>
           </div>
       </div>
@@ -98,9 +98,62 @@
   <section class="features-sub-head bg-light2 py-3">
     <div class="container grid">
         <div>
-            <h1 class="md">Chat Application</h1>
+            <h1 class="md">Login/Authentication Service</h1>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cupiditate dignissimos temporibus perspiciatis quae! Suscipit qui, consectetur ea consequatur, doloribus repellendus quasi, aut corporis nam alias culpa. Nostrum, inventore accusantium!
+                A login and authentication service built with Node/Express/Mongodb Atlas.
+            </p>
+        </div>
+        <img src="images/users.png" alt="">
+    </div>
+</section>
+
+<section class="features-main my-2">
+    <div class="container grid grid-3">
+        <div class="card flex">
+            <i class="fas fa-server fa-3x"></i>
+            <p>Back-end was built on JavaScript with Node and Express libraries</p>
+        </div>
+        <div class="card flex">
+            <i class="fas fa-network-wired fa-3x"></i>
+            <p>
+                Back-end validations and error handling ensure a smooth user experience and protect the database from 'bad' data.
+            </p>
+        </div>
+        <div class="card flex">
+            <i class="fas fa-laptop-code fa-3x"></i>
+            <p>
+              Easy to implement and customize in any MERN stack application.
+            </p>
+        </div>
+        <div class="card flex">
+            <i class="fas fa-database fa-3x"></i>
+            <p>
+                Database services provided by MongoDB Atlas.
+            </p>
+        </div>
+        <div class="card flex">
+            <i class="fas fa-power-off fa-3x"></i>
+            <p>
+              Uses JSON Web Token and Bcrypt to provide secure confidental account access.
+            </p>
+        </div>
+        <div class="card flex">
+            <i class="fas fa-upload fa-3x"></i>
+            <p>
+                <a class="text-primary" href="https://github.com/3Mustard/JWT-auth-with-node-express" target="_blank">Github</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECT THREE -->
+<section class="features-sub-head bg-light2 py-3">
+    <div class="container grid">
+        <div>
+            <h1 class="md">Chat Application</h1>
+            <p>Create an account and user avatar</p>
+            <p>
+                Create/Join public and private channels and talk with other users
             </p>
         </div>
         <img src="images/chatapp.png" alt="">
@@ -111,56 +164,51 @@
     <div class="container grid grid-3">
         <div class="card flex">
             <i class="fas fa-server fa-3x"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo saepe corrupti et dolorem voluptate at, nostrum rem voluptatem ab alias quia molestiae ea, libero nihil deserunt. Molestias, eum? Necessitatibus!</p>
+            <p>Built with Javascript, HTML and CSS using React/Redux and Google Firebase services.</p>
         </div>
         <div class="card flex">
             <i class="fas fa-network-wired fa-3x"></i>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                recusandae perferendis culpa, reiciendis a itaque debitis qui vel
-                dignissimos ipsum!
+                Login and authentication services provided by Google Firebase.
             </p>
         </div>
         <div class="card flex">
             <i class="fas fa-laptop-code fa-3x"></i>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-                magnam.
+                Supports image uploads, emoji and custom color themes.
             </p>
         </div>
         <div class="card flex">
             <i class="fas fa-database fa-3x"></i>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, a!
+                Database & Storage services provided by Google Firestore.
             </p>
         </div>
         <div class="card flex">
             <i class="fas fa-power-off fa-3x"></i>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-                magnam.
+                <a class="text-primary" href="https://lets-trade-a1486.web.app/" target="_blank">Live Demo</a>
             </p>
         </div>
         <div class="card flex">
             <i class="fas fa-upload fa-3x"></i>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-                magnam.
+                <a class="text-primary" href="https://github.com/3Mustard/chat-app" target="_blank">Github</a>
             </p>
         </div>
     </div>
 </section>
 
-<!-- PROJECT THREE -->
+<!-- PROJECT FOUR -->
 <section class="features-sub-head bg-light2 py-3">
   <div class="container grid">
       <div>
-          <h1 class="md">Online Library & Book Reviews</h1>
+          <h1 class="md">Pet Assistant</h1>
           <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cupiditate dignissimos temporibus perspiciatis quae! Suscipit qui, consectetur ea consequatur, doloribus repellendus quasi, aut corporis nam alias culpa. Nostrum, inventore accusantium!
+            Keep track of medications, vet appointments, feeding and notes for all your pets.
           </p>
       </div>
-      <img src="images/books.png" alt="">
+      <img src="images/cat.png" alt="">
   </div>
 </section>
 
@@ -168,41 +216,36 @@
   <div class="container grid grid-3">
       <div class="card flex">
           <i class="fas fa-server fa-3x"></i>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo saepe corrupti et dolorem voluptate at, nostrum rem voluptatem ab alias quia molestiae ea, libero nihil deserunt. Molestias, eum? Necessitatibus!</p>
+          <p>Built with Ruby on Rails, JavaScript and the React/Redux libraries.</p>
       </div>
       <div class="card flex">
           <i class="fas fa-network-wired fa-3x"></i>
           <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-              recusandae perferendis culpa, reiciendis a itaque debitis qui vel
-              dignissimos ipsum!
+              Ruby on Rails was used to set up CRUD routes, create data models and ensure data security.
           </p>
       </div>
       <div class="card flex">
           <i class="fas fa-laptop-code fa-3x"></i>
           <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-              magnam.
+              React and Redux were an easy way to retrieve and render data to users.
           </p>
       </div>
       <div class="card flex">
           <i class="fas fa-database fa-3x"></i>
           <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, a!
+              Database powered by SQlite3.
           </p>
       </div>
       <div class="card flex">
           <i class="fas fa-power-off fa-3x"></i>
           <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-              magnam.
+            <a class="text-primary" href="https://github.com/3Mustard/pet-organizer" target="_blank">Front-end repo</a>
           </p>
       </div>
       <div class="card flex">
           <i class="fas fa-upload fa-3x"></i>
           <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-              magnam.
+              <a class="text-primary" href="https://github.com/3Mustard/pet-feeding-api" target="_blank">Back-end API repo</a>
           </p>
       </div>
   </div>
