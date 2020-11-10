@@ -267,6 +267,12 @@ pre {
   margin: 0 10px;
 }
 
+.footer-form-submit {
+  position: absolute;
+  bottom: 0; 
+  width: 100%;
+}
+
 /* Contact.html */
 .my-img {
   border-radius: 50%;
