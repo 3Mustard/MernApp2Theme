@@ -157,6 +157,10 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.img-trans {
+  filter: drop-shadow(2px 4px 8px #585858);
+}
+
 /* Margin */
 .my-1 {
   margin: 1rem 0;
