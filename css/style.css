@@ -81,6 +81,7 @@ pre {
 
 .navbar .flex {
   justify-content: space-between;
+  overflow: hidden;
 }
 
 /* Showcase */
