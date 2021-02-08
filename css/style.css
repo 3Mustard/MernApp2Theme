@@ -46,6 +46,11 @@ img {
   width: 100%;
 }
 
+.resize-96 {
+  height: 96px;
+  width: 96px;
+}
+
 code,
 pre {
   background: #333;
